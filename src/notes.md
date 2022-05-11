@@ -27,10 +27,10 @@
 
 ```
 git branch dev // 新建本地分支
-git checkout dev // 切换分支
+git checkout dev // 切换本地分支
 git add . // 提交修改到暂存区
 git commit -m "commit content" // 提交修改到版本库
-git checkout master // 切换主分支
+git checkout master // 切换本地主分支
 git merge dev // 合并分支
 git push origin dev:dev // 提交修改到远程dev分支
 ```
